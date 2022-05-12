@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* padding-top: 36px; */
+        }
+        table,th,td{
+            border: 1px solid black;
+        }
+        td,th{
+            padding: 12px;
+        }
+        p{
+            margin: 36px 0;
+        }
+        form{
+            display: grid;
+            grid-template-columns: auto auto;
+            row-gap: 24px;
+            column-gap: 24px;
+            justify-content: center;
+            align-self: center;
+            margin-bottom: 24px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <p>Table</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>Father Name </th>
+                <th>College</th>
+                <th>Year</th>
+                <th>Phone No.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>SONU SINGH</td>
+                <td>RAJWINDER SINGH</td>
+                <td>RTU, Kota</td>
+                <td>3rd</td>
+                <td>9522558811</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Tanmay Naheshwari</td>
+                <td>Arvind Maheshwari</td>
+                <td>RTU, Kota</td>
+                <td>3rd</td>
+                <td>9529510486</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Yogesh Kumar</td>
+                <td>Yoendra Kumar</td>
+                <td>RTU, Kota</td>
+                <td>3rd</td>
+                <td>7229510486</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yogesh Kumar</td>
+                <td>Yoendra Kumar</td>
+                <td>RTU, Kota</td>
+                <td>3rd</td>
+                <td>7229510486</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Forms</p>
+    <form>
+        <label for="Name">Name</label>
+        <input id ="Name" type="text" name="Name">
+        <label for="age">Age</label>
+        <input id ="age" type="text" name="age">
+        <label for="phone-no">Phone No.</label>
+        <input id ="phone-no" type="tel" name="phone-no">
+        <label for="email">Email</label>
+        <input id ="email" type="email" name="email">
+        <label for="state">State</label>
+        <input id ="state" type="text" name="state">
+        <label for="country">Country</label>
+        <input id ="country" type="text" name="country">
+        <label for="message">Message</label>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        
+    </form>
+</body>
+</html>
