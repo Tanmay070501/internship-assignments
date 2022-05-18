@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 24px 64px;
+    padding: 24px;
+}
+.container p,ul{
+    margin-bottom: 24px;
+}
+.para1::before{
+    content: "Hello World!";
+    color: red;
+}
+.para2::after{
+    content: "Hello World!";
+    color: violet;
+}
+.para3::first-letter{
+    font-weight: 700;
+    font-size: 32px;
+}
+.para4::first-line{
+    color: darkred;
+    font-weight: 700;
+}
+.nth-type li:nth-of-type(2n){
+    background-color: aqua;
+}
+.nth-type li:nth-of-type(odd){
+    background-color: goldenrod;
+}
+.nth-child li:nth-child(even){
+    background-color: cadetblue;
+}
+.nth-child li:nth-child(odd){
+    background-color: crimson;
+}
+.first-of-type li:first-of-type{
+    background-color: brown;
+}
+ul p{
+    margin-bottom: 12px;
+}
+.first-child li:first-child{
+    background-color: cornflowerblue;
+}
+h2{
+    text-align: center;
+    padding: 32px;
+}
+.block{
+    display: block;
+    background-color: gray;
+    padding: 24px;
+}
+.none{
+    display: none;
+}
+.inline{
+    display: inline;
+    background-color: red;
+    color: white;
+    padding: 56px 32px;
+}
+.container .inline:nth-of-type(2){
+    background-color: cornflowerblue;
+}
+.inline-block{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 56px 32px;
+    margin-top: 100px;
+}
