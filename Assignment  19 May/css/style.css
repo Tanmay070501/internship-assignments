@@ -1,0 +1,36 @@
+div{
+    background-color: aqua;
+}
+.min-height{
+    min-height: 100px;
+}
+.max-height{
+    max-height: 200px;
+    margin-bottom: 64px;
+}
+span{
+    display: inline-block;
+    background-color: yellowgreen;
+    margin: 12px;
+}
+.min-width{
+    min-width: 500px;
+}
+.max-width{
+    max-width: 500px;
+}
+.overflow-hidden{
+    max-height: 100px;
+    overflow: hidden;
+}
+.overflow-scroll{
+    max-width: 900px;
+    max-height: 350px;
+    overflow: scroll;
+    margin-top: 24px;
+}
+.overflow-auto{
+    margin-top: 24px;
+    max-height: 100px;
+    overflow: auto;
+}
